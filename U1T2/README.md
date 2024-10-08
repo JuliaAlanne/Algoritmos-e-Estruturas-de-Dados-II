@@ -12,7 +12,7 @@ Para o presente estudo, foram extraídos dados referentes a publicações nas á
 Criação da Rede de Coautoria
 -
 A partir dos dados exportados, foi gerado o grafo de coautoria, onde os nós representam os autores e as arestas indicam a existência de uma colaboração entre os mesmos. Este grafo, que reflete as relações de coautoria nas áreas de estudo mencionadas, é apresentado na Figura abaixo.
-
+![Grafo de Coautoria](img/rede.png)
 Análises na Rede
 --
 Foram realizadas diversas análises na rede de coautoria, incluindo o cálculo da densidade da rede, a identificação de subgrafos e a construção de um histograma de graus dos nós. As Figuras abaixo ilustram o subgrafo resultante da análise, e o histograma de distribuição de graus, respectivamente.
