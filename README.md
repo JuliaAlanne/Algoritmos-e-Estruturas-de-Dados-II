@@ -1,4 +1,4 @@
-# Algoritmos-e-Estruturas-de-Dados-II 💻
+# Algoritmos-e-Estruturas-de-Dados-II (DCA3702)💻
 ## Curso:  Engenharia de Computação (UFRN)
 ## Discente : Júlia Alanne Silvino dos Santos 
 O Repositório criado para a disciplina de Algoritmos e Estruturas de Dados II e 
