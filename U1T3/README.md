@@ -15,3 +15,7 @@ Hipóteses a serem testadas:
  * Medicamentos com mais princípios ativos tendem a se conectar com medicamentos de similar complexidade?
 
 ## Rede #01
+
+## Rede #02
+
+## Rede #03
