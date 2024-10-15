@@ -1,3 +1,7 @@
+Discente: Júlia Alanne Silvino dos Santos
+
+Matrícula: 20240001215
+
 ## Estudo de Assortatividade em Rede de Medicamentos e Princípios Ativos
 
 Hipóteses a serem testadas:
