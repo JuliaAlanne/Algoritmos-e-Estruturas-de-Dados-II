@@ -12,9 +12,9 @@ Este projeto tem como objetivo explorar as funcionalidades da biblioteca OSMnx p
 
 No mapa gerado pelo OSMnx, os nós e arestas são elementos essenciais da estrutura da rede viária:
 
-Nós: Os nós representam pontos de interseção, cruzamentos ou locais onde as ruas começam ou terminam, como acessos e ramificações.
+* Nós: Os nós representam pontos de interseção, cruzamentos ou locais onde as ruas começam ou terminam, como acessos e ramificações.
 
-Arestas: As arestas correspondem às ruas ou segmentos de rua que ligam dois nós, representando os trechos percorríveis da via entre interseções ou outros pontos importantes na rede.
+* Arestas: As arestas correspondem às ruas ou segmentos de rua que ligam dois nós, representando os trechos percorríveis da via entre interseções ou outros pontos importantes na rede.
 
 ![Descrição da imagem](imagens/02..png)
 ![Descrição da imagem](imagens/03..png)
