@@ -1,3 +1,6 @@
+Discente: Júlia Alanne Silvino dos Santos
+
+Matrícula: 20240001215
 
 # Análise da Rede do Bairro Lagoa Nova - Natal/RN usando a biblioteca OSMnx 
 
