@@ -16,5 +16,4 @@ No mapa gerado pelo OSMnx, os nós e arestas são elementos essenciais da estrut
 
 * Arestas: As arestas correspondem às ruas ou segmentos de rua que ligam dois nós, representando os trechos percorríveis da via entre interseções ou outros pontos importantes na rede.
 
-![Descrição da imagem](imagens/02..png)
 ![Descrição da imagem](imagens/03..png)
