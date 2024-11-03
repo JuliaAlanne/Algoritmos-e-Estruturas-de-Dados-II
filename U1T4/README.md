@@ -4,7 +4,7 @@ Matrícula: 20240001215
 
 # Análise da Rede do Bairro Lagoa Nova - Natal/RN usando a biblioteca OSMnx 
 
-Este projeto tem como objetivo explorar as funcionalidades da biblioteca OSMnx para realizar uma análise detalhada da rede viária do bairro Lagoa Nova, em Natal/RN. Utilizando diversas métricas de análise de rede, buscaremos responder a perguntas relevantes sobre a estrutura e o funcionamento da infraestrutura viária local. Foi gravado um ![Video](https://www.loom.com/share/cf37742cd4f64a63bd2b00adac178eba?sid=36504562-474d-4b85-861c-7173791b537d) explicativo do desenvolvimento da atividade.
+Este projeto tem como objetivo explorar as funcionalidades da biblioteca OSMnx para realizar uma análise detalhada da rede viária do bairro Lagoa Nova, em Natal/RN. Utilizando diversas métricas de análise de rede, buscaremos responder a perguntas relevantes sobre a estrutura e o funcionamento da infraestrutura viária local. Foi gravado um [Video](https://www.loom.com/share/cf37742cd4f64a63bd2b00adac178eba?sid=36504562-474d-4b85-861c-7173791b537d) explicativo do desenvolvimento da atividade.
 
 ![Descrição da imagem](imagens/01..png)
 
