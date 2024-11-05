@@ -40,13 +40,18 @@ A centralidade de autovetor mede a importância de um nó em uma rede, levando e
 Na rede os nós com tons mais claros (amarelo ou verde claro) representam locais com alta centralidade de autovetor. Esses pontos são fundamentais para a estrutura da rede, pois estão conectados a outros nós influentes e com grande fluxo. Diferente dos nós em tons mais escuros (roxo).
 
 ### Requisito 2 - PDF e CDF
+
 Análise da CDF e PDF dos graus dos nós para compreender o comportamento da rede (se ela segue uma distribuição de tipo "lei de potência", que é comum em redes complexas). 
 
 Análise multivariada das métricas de centralidade:
 Aplicação de técnicas de análise multivariada para observar como diferentes métricas de centralidade estão relacionadas e como elas podem ser usadas para identificar zonas de alta mobilidade.
-![](imagens/6.0.png)
+
 ![](imagens/7.0.png)
+O grau mais frequente na rede é em torno de 6, o que indica que a maioria dos nós tende a ter aproximadamente 6 conexões.
+
+
 ![](imagens/8.0.png)
+A curva da CDF mantem estabiloidade em aproximadamente 1 (ou 100%) após o grau 8, o que sugere que poucos nós têm graus superiores a este valor.
 
 A partir das métricas de centralidade e da análise multivariada, sugerir os bairros ou interseções de alta centralidade como locais ideais para a instalação de dock-stations de bicicletas.
 
