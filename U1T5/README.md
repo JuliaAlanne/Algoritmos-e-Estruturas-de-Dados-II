@@ -1,5 +1,6 @@
 # Avaliação da mobilidade no entorno da UFRN, em Natal-RN.
 
+![](imagens/1.0.png)
 ### Requisito 1 - Métricas de centralidade
 
 ### Requisito 2 - PDF e CDF
