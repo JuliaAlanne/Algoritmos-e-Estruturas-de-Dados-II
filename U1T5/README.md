@@ -28,11 +28,16 @@ Na rede acima os nós em tons mais claros (amarelos)apresentam uma centralidade 
 A centralidade de intermediação quantifica o papel de um nó como intermediário em uma rede. Esta avalia quantas vezes um nó aparece nos caminhos mais curtos entre outros pares de nós. Essa medida é útil para identificar nós que atuam como "pontes" ou "conectores" na rede, influenciando o fluxo de informações.
 
 ![](imagens/4.0.png)
-#### * Centralidade de Autovetor
+
+Na rede acima, os nós em tons mais claros (amarelos e verdes) têm uma alta centralidade de intermediação, significando que eles atuam como pontos de passagem chave na rede. Já os nós em tons mais escuros (roxo) têm baixa centralidade de intermediação, o que indica que são menos importantes para a conectividade geral da rede. Eles estão frequentemente localizados nas periferias ou em ruas que não servem como rotas principais de tráfego.
+
+#### Centralidade de Autovetor
 
 A centralidade de autovetor mede a importância de um nó em uma rede, levando em consideração não apenas o número de conexões diretas (como na centralidade de grau), mas também a importância dos nós aos quais ele está conectado. Isso significa que, para que um nó tenha uma alta centralidade de autovetor, ele precisa estar conectado a outros nós que também são importantes na rede.
 
 ![](imagens/5.0.png)
+
+Na rede os nós com tons mais claros (amarelo ou verde claro) representam locais com alta centralidade de autovetor. Esses pontos são fundamentais para a estrutura da rede, pois estão conectados a outros nós influentes e com grande fluxo. Diferente dos nós em tons mais escuros (roxo).
 
 ### Requisito 2 - PDF e CDF
 Análise da CDF e PDF dos graus dos nós para compreender o comportamento da rede (se ela segue uma distribuição de tipo "lei de potência", que é comum em redes complexas). 
