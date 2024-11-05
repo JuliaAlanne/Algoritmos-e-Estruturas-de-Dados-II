@@ -1,5 +1,5 @@
 # Avaliação da mobilidade no entorno da UFRN, em Natal-RN.
-Fazendo uso da biblioteca (Osmnx)[https://github.com/gboeing/osmnx], o presente projeto tem como objetivo avaliar a mobilidade no entorno da Universidade Federal do Rio Grando de Norte (UFRN).
+Fazendo uso da biblioteca [Osmnx](https://github.com/gboeing/osmnx), o presente projeto tem como objetivo avaliar a mobilidade no entorno da Universidade Federal do Rio Grando de Norte (UFRN).
 
 
 ![](imagens/1.0.png)
