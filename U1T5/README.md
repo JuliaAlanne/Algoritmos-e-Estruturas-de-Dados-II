@@ -1,7 +1,9 @@
 # Avaliação da mobilidade no entorno da UFRN, em Natal-RN.
 
-![01](imagens/1.0.png)
-![02](imagens/2.0.png)
-![03](imagens/3.0.png)
-![04](imagens/4.0.png)
+## Requisito 1 - Métricas de centralidade
 
+## Requisito 2 - PDF e CDF
+
+## Requisito 3 - Analisando a Matriz de Correlação das Métricas de Centralidade
+
+## Requisito 4 - Quem é o core/shell da rede?
