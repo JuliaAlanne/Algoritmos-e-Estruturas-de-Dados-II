@@ -40,23 +40,32 @@ A centralidade de autovetor mede a importância de um nó em uma rede, levando e
 Na rede os nós com tons mais claros (amarelo ou verde claro) representam locais com alta centralidade de autovetor. Esses pontos são fundamentais para a estrutura da rede, pois estão conectados a outros nós influentes e com grande fluxo. Diferente dos nós em tons mais escuros (roxo).
 
 ### Requisito 2 - PDF e CDF
+#### Curva de Densidade de Probabilidade (PDF)
 
-Análise da CDF e PDF dos graus dos nós para compreender o comportamento da rede (se ela segue uma distribuição de tipo "lei de potência", que é comum em redes complexas). 
-
-Análise multivariada das métricas de centralidade:
-Aplicação de técnicas de análise multivariada para observar como diferentes métricas de centralidade estão relacionadas e como elas podem ser usadas para identificar zonas de alta mobilidade.
+A PDF dos graus em uma rede é uma representação que permite visualizar como os graus dos nós estão distribuídos ao longo da rede. Ela fornece uma estimativa contínua da distribuição dos graus e indica a frequência relativa de cada grau, ou seja, com que frequência certos graus aparecem em comparação com outros.
 
 ![](imagens/7.0.png)
+
 O grau mais frequente na rede é em torno de 6, o que indica que a maioria dos nós tende a ter aproximadamente 6 conexões.
 
+####  Função de Distribuição Acumulada (CDF)
+A CDF dos graus em uma rede é uma ferramenta poderosa para analisar a conectividade da rede. Ela mostra a proporção acumulada de nós com grau igual ou inferior a um determinado valor, permitindo identificar rapidamente a distribuição da conectividade entre os nós.
 
 ![](imagens/8.0.png)
+
 A curva da CDF mantem estabiloidade em aproximadamente 1 (ou 100%) após o grau 8, o que sugere que poucos nós têm graus superiores a este valor.
 
 A partir das métricas de centralidade e da análise multivariada, sugerir os bairros ou interseções de alta centralidade como locais ideais para a instalação de dock-stations de bicicletas.
 
 ### Requisito 3 - Analisando a Matriz de Correlação das Métricas de Centralidade
+* Na diagonal principal, observa-se a distribuição de cada métrica de forma isolada. A aparência dessa distribuição (se é normal, bimodal, etc.) pode revelar características específicas da rede. Por exemplo, uma distribuição de grau com uma cauda longa indica que há poucos nós com um grande número de conexões.
+
+* A sobreposição das distribuições pode sugerir que algumas métricas estão refletindo informações parecidas. Por exemplo, se as distribuições de grau (degree) e intermediação (betweenness) apresentam uma grande sobreposição, isso pode indicar que os nós com alto grau também tendem a ter alta intermediação, sugerindo que são tanto bem conectados quanto frequentemente atravessados em caminhos na rede.
+
+Fora da diagonal principal, encontram-se as correlações entre pares de métricas. Valores próximos de 1 indicam uma forte correlação positiva, o que significa que, ao aumentar uma métrica, a outra também tende a crescer. Valores próximos de -1 revelam uma forte correlação negativa, indicando que, quando uma métrica aumenta, a outra tende a diminuir. Valores próximos de 0 sugerem que não há uma relação clara ou consistente entre as métricas.
 ![](imagens/9.0.png)
 
 ### Requisito 4 - Quem é o core/shell da rede?
 ![](imagens/10.0.png)
+### 
+De acordo com as análises, a distribuição da mobilidade e conectividade ao redor da UFRN, os bairros Candelária e Capim Macio apresentaram altos índices de centralidade. Com base nas métricas, foram identificados alguns locais em potenciais para a instalação de dock-stations de bicicletas compartilhadas, levando em consideração as áreas com alta conectividade e proximidade.
