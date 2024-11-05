@@ -23,5 +23,7 @@
 
 
 ### Requisito 3 - Analisando a Matriz de Correlação das Métricas de Centralidade
+![](imagens/9.0.png)
 
 ### Requisito 4 - Quem é o core/shell da rede?
+![](imagens/10.0.png)
