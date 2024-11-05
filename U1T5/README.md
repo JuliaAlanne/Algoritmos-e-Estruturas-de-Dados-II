@@ -18,6 +18,9 @@
 
 ### Requisito 2 - PDF e CDF
 ![](imagens/6.0.png)
+![](imagens/7.0.png)
+![](imagens/8.0.png)
+
 
 ### Requisito 3 - Analisando a Matriz de Correlação das Métricas de Centralidade
 
