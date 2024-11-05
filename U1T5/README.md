@@ -13,8 +13,11 @@
 #### Centralidade de Intermediação
 
 ![](imagens/4.0.png)
+#### Centralidade de Autovetor
+![](imagens/5.0.png)
 
 ### Requisito 2 - PDF e CDF
+![](imagens/6.0.png)
 
 ### Requisito 3 - Analisando a Matriz de Correlação das Métricas de Centralidade
 
