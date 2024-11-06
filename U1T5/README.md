@@ -9,7 +9,7 @@ Este trabalho tem como objetivo avaliar a mobilidade no entorno da UFRN, em Nata
 
 O [vídeo](https://www.loom.com/share/3c248904d34742048392d613f6851c1a?sid=8bc63262-f62a-4991-839c-d29c5ba95609) apresenta uma breve explicação do projeto desenvolvido.
 
-* Como forma analisar a rede foi decidido incluir os bairros de Lagoa Nova, Candelália, e Capim Macio, no entorno da UFRN, com nós dentro de um raio de 3km de distância.
+Como forma analisar a rede foi decidido incluir os bairros de Lagoa Nova, Candelália, e Capim Macio, no entorno da UFRN, com nós dentro de um raio de 3km de distância.
 
 ![](imagens/1.0.png)
 
