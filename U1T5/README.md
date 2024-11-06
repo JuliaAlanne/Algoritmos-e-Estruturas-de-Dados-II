@@ -12,6 +12,8 @@ O [video](https://www.loom.com/share/3c248904d34742048392d613f6851c1a?sid=8bc632
 * Como forma analisar a rede foi decidido incluir os bairros de Lagoa Nova, Candelália, e Capim Macio, no entorno da UFRN, com nós dentro de um raio de 3km de distância.
 
 ![](imagens/1.0.png)
+
+
 ### Requisito 1 - Métricas de centralidade
 #### Centralidade de graus
 
@@ -79,6 +81,8 @@ Closeness e Betweenness: Uma correlação positiva moderada entre closeness e be
 * Shell são os nós que posuem uma conectividade mais baixa.
 
 ![](imagens/10.0.png)
+
+
 **Core:**
 
 Na rede apresentada, os nós do core (vermelhos) são os mais conectados, possuindo um número elevado de conexões (grau). Eles desempenham um papel crucial na estrutura da rede, pois estão bem posicionados para facilitar o acesso e a mobilidade. No contexto de um sistema de compartilhamento de bicicletas, esses nós representam locais estratégicos e altamente acessíveis, funcionando como pontos de partida ou chegada ideais. Instalar estações de bicicletas compartilhadas nesses pontos pode aumentar a eficiência do sistema, maximizando a utilização e o fluxo de usuários.
