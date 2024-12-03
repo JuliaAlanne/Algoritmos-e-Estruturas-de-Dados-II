@@ -5,7 +5,7 @@ Discente: Júlia Alanne Silvino dos Santos
 Matrícula: 20240001215
 
 ## Requisito 01 
-![](img/grafo.png)
+[](img/grafo.png)
 
 ## Requisito 02 
 ## Requisito 03
