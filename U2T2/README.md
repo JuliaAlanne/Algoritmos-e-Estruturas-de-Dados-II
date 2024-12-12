@@ -15,4 +15,6 @@ Avaliar o desempenho de dois algoritmos fornecidos(solver_closest.ipynb e solver
 intervalo de confiança.
 * Gerar gráficos com tamanho do vetor (eixo x), tempo médio de execução (eixo y), e intervalos de confiança como barras de erro no gráfico.
 
+''' gdjd
+
 ![video]()
