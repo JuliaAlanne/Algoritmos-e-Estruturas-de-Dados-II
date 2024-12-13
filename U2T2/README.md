@@ -3,14 +3,12 @@ Discente: Júlia Alanne Silvino dos Santos
 
 Matrícula: 20240001215
 
-O [vídeo](https://youtu.be/7YmguAky7DI) apresenta uma breve explicação do projeto desenvolvido.
-
-Como forma analisar a rede foi decidido incluir os bairros de Lagoa Nova, Candelália, e Capim Macio, no entorno da UFRN, com nós dentro de um raio de 3km de distância.
-
 ## Desempenho de algoritmos
-
 ### Objetivo:
 Avaliar o desempenho de dois algoritmos fornecidos(solver_closest.ipynb e solver_kth_largest.ipynb) considerando diversas entradas aleatórias e reproduzíveis, variando o tamanho do vetor de entrada até um valor N grande.
+
+O [vídeo](https://youtu.be/7YmguAky7DI) apresenta uma breve explicação do projeto desenvolvido.
+
 
 ### Requisitos
 * Instrumentar os códigos fornecidos com o módulo time para medir o tempo de execução.
