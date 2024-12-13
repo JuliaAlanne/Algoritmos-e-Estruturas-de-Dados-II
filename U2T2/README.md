@@ -7,7 +7,7 @@ Matrícula: 20240001215
 ### Objetivo:
 Avaliar o desempenho de dois algoritmos fornecidos(solver_closest.ipynb e solver_kth_largest.ipynb) considerando diversas entradas aleatórias e reproduzíveis, variando o tamanho do vetor de entrada até um valor N grande.
 
-O [vídeo](https://youtu.be/7YmguAky7DI) apresenta uma breve explicação do projeto desenvolvido.
+O [vídeo](https://youtu.be/7YmguAky7DI) apresenta uma breve explicação da atividade desenvolvida.
 
 
 ### Requisitos
