@@ -3,7 +3,9 @@ Discente: Júlia Alanne Silvino dos Santos
 
 Matrícula: 20240001215
 
-![video](https://youtu.be/7YmguAky7DI)
+O [vídeo](https://youtu.be/7YmguAky7DI) apresenta uma breve explicação do projeto desenvolvido.
+
+Como forma analisar a rede foi decidido incluir os bairros de Lagoa Nova, Candelália, e Capim Macio, no entorno da UFRN, com nós dentro de um raio de 3km de distância.
 
 ## Desempenho de algoritmos
 
