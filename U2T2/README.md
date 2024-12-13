@@ -3,6 +3,8 @@ Discente: Júlia Alanne Silvino dos Santos
 
 Matrícula: 20240001215
 
+![video]()
+
 ## Desempenho de algoritmos
 
 ### Objetivo:
@@ -18,4 +20,5 @@ intervalo de confiança.
 
 ### Resultados e discursoes
 Os resultados mostram que o algoritmo _solver_kth_largest_ apresenta uma complexidade de tempo linear, como demonstrado pelo aumento contínuo no tempo de execução conforme o tamanho da árvore binária de busca (BST). Enquanto o algoritmo _solver_closest_ apresenta uma complexidade de tempo logarítmica, com o tempo de execução crescendo a uma taxa significativamente mais lenta em relação ao tamanho da árvore. Ad pequenas barras de erro em nossos gráficos indicam alta precisão de precisão, resultado do grande número de observações (20) realizadas para cada configuração de teste.
-![video]()
+
+
