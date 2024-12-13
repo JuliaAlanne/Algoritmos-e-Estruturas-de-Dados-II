@@ -3,7 +3,7 @@ Discente: Júlia Alanne Silvino dos Santos
 
 Matrícula: 20240001215
 
-![video]()
+![video](https://youtu.be/7YmguAky7DI)
 
 ## Desempenho de algoritmos
 
