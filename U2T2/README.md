@@ -16,5 +16,5 @@ intervalo de confiança.
 * Gerar gráficos com tamanho do vetor (eixo x), tempo médio de execução (eixo y), e intervalos de confiança como barras de erro no gráfico.
 
   ### Resultados e discursoes
-
+Os resultados mostram que o algoritmo solver_kth_largestapresenta uma complexidade de tempo linear, como demonstrado pelo aumento contínuo no tempo de execução conforme o tamanho da árvore binária de busca (BST). Enquanto o algoritmo solver_closest apresenta uma complexidade de tempo logarítmica, com o tempo de execução crescendo a uma taxa significativamente mais lenta em relação ao tamanho da árvore. Ad pequenas barras de erro em nossos gráficos indicam alta precisão de precisão, resultado do grande número de observações (20) realizadas para cada configuração de teste.
 ![video]()
