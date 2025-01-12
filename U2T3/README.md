@@ -24,7 +24,7 @@ solução presente no networkx e visualizar o resultado no OSMnx.
 
 ###  Destinos:
 * 1- UFRN
-* 2- Midway Mall
+* 2- Morro do careca
 * 3- Praia do Meio
 * 4- Centro Histórico de Natal
 * 5- Parnamirim (Av. Ayrton Senna)
