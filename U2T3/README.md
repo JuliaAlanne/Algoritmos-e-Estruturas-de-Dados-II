@@ -8,9 +8,9 @@ Matrícula: 20240001215
 Avaliar o algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a
 solução presente no networkx e visualizar o resultado no OSMnx.
 
-** Pontos de interesse: 
+**Pontos de interesse:**
 
-Origens:
+** Origens:
 * 1- Shopping Midway Mall
 * 2- Universidade Federal do Rio Grande do Norte (UFRN)
 * 3- Praia de Ponta Negra
@@ -21,7 +21,7 @@ Origens:
 * 8- Shopping Natal Sul
 * 9- Rodoviária de Natal
 * 10-Aeroporto Internacional de Natal (São Gonçalo do Amarante)
-Destinos:
+** Destinos:
 * 1- UFRN
 * 2- Midway Mall
 * 3- Praia do Meio
