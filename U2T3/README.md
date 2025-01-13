@@ -21,16 +21,16 @@ Foram definidos os seguintes POIs
 **POIs**
 
 ### Origens:
-1- Shopping Midway Mall
-2- Universidade Federal do Rio Grande do Norte (UFRN)
-3- Praia de Ponta Negra
-4- Arena das Dunas
-5- Parque das Dunas
-6- Centro Histórico de Natal
-7- Praia do Forte
-8- Shopping Natal Sul
-9- Rodoviária de Natal
-10-Aeroporto Internacional de Natal (São Gonçalo do Amarante)
+  1. Shopping Midway Mall
+  2. Universidade Federal do Rio Grande do Norte (UFRN)
+  3. Praia de Ponta Negra
+  4. Arena das Dunas
+  5. Parque das Dunas
+  6. Centro Histórico de Natal
+  7. Praia do Forte
+  8. Shopping Natal Sul
+  9. Rodoviária de Natal
+  10. Aeroporto Internacional de Natal (São Gonçalo do Amarante)
 
 ###  Destinos:
 * 1- UFRN
@@ -62,6 +62,7 @@ Visualização de Caminhos:
 * Azul representa o caminho calculado pelo NetworkX.
 
 * Verde representa o caminho calculado pelo Min-Heap.
+  
   ![](img/Grafo_Dijsktra.png)
 
 
