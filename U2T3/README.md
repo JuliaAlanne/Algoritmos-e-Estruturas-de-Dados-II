@@ -46,25 +46,27 @@ Foram definidos os seguintes POIs
   
   ### Resultados
 
-  Para cada par de origem e destino, foram comparados:
+Para cada par de origem e destino, foram comparados:
 
 Tempo de Execução:
 
 * O tempo de execução foi medido para os dois algoritmos (Min-Heap e NetworkX), conforme apresentado na figira a baixo.
 
 ![](img/comparacao.png)
-  Visualização de Caminhos:
 
-* Os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
+
+Visualização de Caminhos:
+
+* Na figura abaixo é perceber que os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
 
 * Azul representa o caminho calculado pelo NetworkX.
 
 * Verde representa o caminho calculado pelo Min-Heap.
 
 
-Análise:
+### Análise:
 
-* Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota, conforme podemos observar na figura abaixo
+* Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota.
 
 * O algoritmo com NetworkX teve desempenho melhor em tempo de execução.
 
