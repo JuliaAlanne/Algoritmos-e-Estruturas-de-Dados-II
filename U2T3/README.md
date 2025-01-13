@@ -62,7 +62,7 @@ Visualização de Caminhos:
 * Azul representa o caminho calculado pelo NetworkX.
 
 * Verde representa o caminho calculado pelo Min-Heap.
-  ![](img/GRafo_Dijsktra.png)
+  ![](img/Grafo_Dijsktra.png)
 
 
 ### Análise:
