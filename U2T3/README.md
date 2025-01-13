@@ -57,11 +57,12 @@ Tempo de Execução:
 
 Visualização de Caminhos:
 
-* Na figura abaixo é perceber que os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
+* Os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
 
 * Azul representa o caminho calculado pelo NetworkX.
 
 * Verde representa o caminho calculado pelo Min-Heap.
+  ![](img/GRafo_Dijsktra.png)
 
 
 ### Análise:
