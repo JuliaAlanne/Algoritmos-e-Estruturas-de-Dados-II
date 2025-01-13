@@ -9,7 +9,7 @@ PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX
 
 O algoritmo de Dijkstra é um método para encontrar o caminho mais curto em grafos ponderados com arestas de pesos positivos. Ele começa de um nó de origem, calcula as menores distâncias para os outros nós e constrói o caminho mais eficiente até o destino.
 
-Avaliar o algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no networkx e visualizar o resultado no OSMnx.
+/////// Dessa forma, na parte 1 desta atividade vamos avaliar o algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no networkx e visualizar o resultado no OSMnx.
 
 ### Objetivo
 
