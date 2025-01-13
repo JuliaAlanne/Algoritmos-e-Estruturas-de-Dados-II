@@ -5,8 +5,7 @@ Matrícula: 20240001215
 ## Algoritmos Clássicos (Dijkstra e Kruskal)
 PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX
 
-Avaliar o algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a
-solução presente no networkx e visualizar o resultado no OSMnx.
+Avaliar o algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no networkx e visualizar o resultado no OSMnx.
 
 ### Objetivo
 
@@ -17,10 +16,8 @@ O objetivo principal é comparar o desempenho dos dois algoritmos em termos de t
 * Algoritmo de Dijkstra com NetworkX (função shortest_path).
 
 ### Desenvolvimento
-Foram definidos os seguintes POIs
-**POIs**
+Foram definidos os seguintes POIs (Origens, Destino):
 
-### Origens, Destino:
   * Shopping Midway Mall, UFRN
   * Universidade Federal do Rio Grande do Norte (UFRN), Morro do careca
   * Praia de Ponta Negra, Praia do Meio
