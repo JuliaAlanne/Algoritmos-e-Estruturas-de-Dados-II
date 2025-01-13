@@ -52,7 +52,7 @@ Tempo de Execução:
 
 * O tempo de execução foi medido para os dois algoritmos (Min-Heap e NetworkX), conforme apresentado na figira a baixo.
 
-![](img/comparacao)
+![](img/comparacao.png)
   Visualização de Caminhos:
 
 * Os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
