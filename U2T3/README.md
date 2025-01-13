@@ -20,29 +20,21 @@ O objetivo principal é comparar o desempenho dos dois algoritmos em termos de t
 Foram definidos os seguintes POIs
 **POIs**
 
-### Origens:
-  1. Shopping Midway Mall
-  2. Universidade Federal do Rio Grande do Norte (UFRN)
-  3. Praia de Ponta Negra
-  4. Arena das Dunas
-  5. Parque das Dunas
-  6. Centro Histórico de Natal
-  7. Praia do Forte
-  8. Shopping Natal Sul
-  9. Rodoviária de Natal
-  10. Aeroporto Internacional de Natal (São Gonçalo do Amarante)
+### Origens, Destino:
+  * Shopping Midway Mall, UFRN
+  * Universidade Federal do Rio Grande do Norte (UFRN), Morro do careca
+  * Praia de Ponta Negra, Praia do Meio
+  * Arena das Dunas, Centro Histórico de Natal
+  * Parque das Dunas,  Parnamirim (Av. Ayrton Senna)
+  * Centro Histórico de Natal, Praia de Ponta Negra
+  * Praia do Forte, Shopping Via Direta
+  * Shopping Natal Sul,Parque das Dunas
+  * Rodoviária de Natal, Arena das Dunas
+  * Aeroporto Internacional de Natal (São Gonçalo do Amarante), Shopping Partage Norte
 
-###  Destinos:
-* 1- UFRN
-* 2- Morro do careca
-* 3- Praia do Meio
-* 4- Centro Histórico de Natal
-* 5- Parnamirim (Av. Ayrton Senna)
-* 6- Praia de Ponta Negra
-* 7- Shopping Via Direta
-* 8- Parque das Dunas
-* 9- Arena das Dunas
-* 10- Shopping Partage Norte
+  ### Desenvolvimento
+
+  ..
   
   ### Resultados
 
