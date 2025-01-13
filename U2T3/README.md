@@ -4,15 +4,15 @@ Matrícula: 20240001215
 
 ## Algoritmos Clássicos (Dijkstra e Kruskal)
 
-### Algoritmo de Dijkstra:
+#### Algoritmo de Dijkstra:
 
 O algoritmo de Dijkstra é um método para encontrar o caminho mais curto em grafos ponderados com arestas de pesos positivos. Ele começa de um nó de origem, calcula as menores distâncias para os outros nós e constrói o caminho mais eficiente até o destino.
 
-### Algoritmo de Kruskal
+#### Algoritmo de Kruskal
 
 
 
-PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX
+## PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX 
 
 ### Objetivo
 O objetivo principal é  avaliar o  desempenho  do algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no networkx (função shortest_path)  para diferentes pares de pontos de interesse (POIs) na cidade de Natal-RN e visualizar o resultado no OSMnx.
