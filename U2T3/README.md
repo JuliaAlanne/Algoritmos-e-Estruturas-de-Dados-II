@@ -3,12 +3,22 @@ Discente: Júlia Alanne Silvino dos Santos
 Matrícula: 20240001215
 
 ## Algoritmos Clássicos (Dijkstra e Kruskal)
-
+PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX
 
 Avaliar o algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a
 solução presente no networkx e visualizar o resultado no OSMnx.
 
-**Pontos de interesse:**
+### Objetivo
+
+O objetivo principal é comparar o desempenho dos dois algoritmos em termos de tempo de execução para diferentes pares de pontos de interesse (POIs) na cidade de Natal-RN, usando:
+
+* Algoritmo de Dijkstra com Min-Heap (implementado manualmente).
+
+* Algoritmo de Dijkstra com NetworkX (função shortest_path).
+
+### Desenvolvimento
+Foram definidos os seguintes POIs
+**POIs**
 
 ### Origens:
 * 1- Shopping Midway Mall
@@ -33,3 +43,28 @@ solução presente no networkx e visualizar o resultado no OSMnx.
 * 8- Parque das Dunas
 * 9- Arena das Dunas
 * 10- Shopping Partage Norte
+  
+  ### Resultados
+
+  Para cada par de origem e destino, foram comparados:
+
+Tempo de Execução:
+
+* O tempo de execução foi medido para os dois algoritmos (Min-Heap e NetworkX), conforme apresentado na figira a baixo.
+
+![](img/comparacao)
+  Visualização de Caminhos:
+
+* Os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
+
+* Azul representa o caminho calculado pelo NetworkX.
+
+* Verde representa o caminho calculado pelo Min-Heap.
+
+
+Análise:
+
+* Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota, conforme podemos observar na figura abaixo
+
+* O algoritmo com NetworkX teve desempenho melhor em tempo de execução.
+
