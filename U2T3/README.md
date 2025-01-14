@@ -10,6 +10,7 @@ O algoritmo de Dijkstra é um método para encontrar o caminho mais curto em gra
 
 #### Algoritmo de Kruskal
 
+O algoritmo de Kruskal é um método eficiente e amplamente utilizado para determinar a Árvore Geradora Mínima (Minimum Spanning Tree - MST) em um grafo ponderado e conectado, garantindo a menor soma possível dos pesos das arestas que conectam todos os vértices.
 
 
 ## PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX 
@@ -32,7 +33,7 @@ Foram definidos os seguintes POIs (Origens, Destino):
   * Rodoviária de Natal, Arena das Dunas
   * Aeroporto Internacional de Natal (São Gonçalo do Amarante), Shopping Partage Norte
   
-  ### Resultados
+### Resultados
 
 Para cada par de origem e destino, foram comparados:
 
@@ -56,4 +57,12 @@ Visualização de Caminhos:
 * Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota.
 
 * O algoritmo com NetworkX teve desempenho melhor em tempo de execução.
+
+PARTE 2 - Kruskal
+### Objetivo
+
+### Desenvolvimento
+
+### Resultados
+
 
