@@ -65,6 +65,6 @@ Visualização de Caminhos:
 ### Desenvolvimento
 
 ### Resultados
-  ![](img/Kruskal.png)
+  ![](img/kruskal.png)
 
 
