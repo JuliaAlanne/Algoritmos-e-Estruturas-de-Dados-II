@@ -58,7 +58,8 @@ Visualização de Caminhos:
 
 * O algoritmo com NetworkX teve desempenho melhor em tempo de execução.
 
-PARTE 2 - Kruskal
+## PARTE 2 - Kruskal
+
 ### Objetivo
 
 ### Desenvolvimento
