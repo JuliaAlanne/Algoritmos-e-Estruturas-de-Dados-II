@@ -58,24 +58,15 @@ Visualização de Caminhos:
 
 * O algoritmo com NetworkX teve desempenho melhor em tempo de execução.
 
-## PARTE 2 - Kruskal
+* 
 
-# Roteiro Turístico Otimizado com o Algoritmo de Kruskal
+## PARTE 2 - Uso do Algoritmo de Kruskal para roteiro Turístico
 
-Este projeto utiliza o **algoritmo de Kruskal** para calcular a 
-**Árvore Geradora Mínima (MST)** que conecta os principais pontos turísticos 
-da cidade de Natal-RN, criando um roteiro eficiente que minimiza as distâncias percorridas.
-
-## PARTE 1 - Introdução
+Este projeto utiliza o **algoritmo de Kruskal** para calcular a  MST que conecta os principais pontos turísticos da cidade de Natal-RN, criando um roteiro eficiente que minimiza as distâncias percorridas.
 
 ### Objetivo
-O objetivo demonstrar a aplicação do algoritmo de Kruskal  para otimizar um roteiro turístico, conectando atrações de forma eficiente 
-e econômica.
+O objetivo demonstrar a aplicação do algoritmo de Kruskal  para otimizar um roteiro turístico em Natal-RN , conectando atrações de forma eficiente e econômica.
 
-## PARTE 2 - Kruskal
-
-### Objetivo
-Aplicar é o algoritmo de Kruskal para determinar a menor rota que conecta os pontos turísticos de Natal-RN, minimizando a soma total das distâncias entre eles.
 
 ### Desenvolvimento
 1. **Modelagem do Grafo**:
@@ -88,9 +79,9 @@ Aplicar é o algoritmo de Kruskal para determinar a menor rota que conecta os po
    - O processo foi repetido até conectar todos os pontos turísticos, resultando na MST.
 
 3. **Ferramentas Utilizadas**:
+   - `OSMnx`: Para trabalhar com mapas e dados geográficos.
    - `networkx`: Para modelagem e manipulação do grafo.
    - `matplotlib`: Para visualização gráfica dos resultados.
-   - `OSMnx`: Para trabalhar com mapas e dados geográficos.
 
 ### Resultados
 - O algoritmo gerou uma rota otimizada conectando todos os pontos turísticos com a menor soma de distâncias.
