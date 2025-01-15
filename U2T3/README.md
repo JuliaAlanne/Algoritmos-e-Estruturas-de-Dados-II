@@ -85,7 +85,11 @@ O objetivo demonstrar a aplicação do algoritmo de Kruskal  para otimizar um ro
 
 ### Resultados
 - O algoritmo gerou uma rota otimizada conectando todos os pontos turísticos com a menor soma de distâncias.
+- Comprimento total da MST: **28.823,45 metros**.
 - A visualização do grafo com a MST está representada abaixo:
 
   ![](img/kruskal.png)
+
+O comprimento total da MST, equivalente a 28.823,45 metros, representa a menor distância necessária para conectar todos os pontos turísticos selecionados. Esse valor reflete um roteiro otimizado que reduz deslocamentos, tornando-o ideal para turistas que desejam explorar diversos locais de forma prática e eficiente. Além disso, a rota oferece uma solução estratégica para planejamento de transporte turístico, reduzindo custos operacionais e tempo de viagem, além de possibilitar a criação de itinerários guiados personalizados.
+
 
