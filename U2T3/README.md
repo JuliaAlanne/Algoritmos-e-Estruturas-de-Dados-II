@@ -141,7 +141,7 @@ Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizand
 - **Azul**: Caminho calculado pelo algoritmo do NetworkX.
 - **Verde**: Caminho calculado pelo algoritmo com Min-Heap.
 
-![Mapa de Caminhos](img/Grafo_Dijsktra.png)
+![Mapa de Caminhos](img/Dijsktra.png)
 
 ---
 
