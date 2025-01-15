@@ -133,7 +133,7 @@ for resultado in resultados:
 
 Os tempos de execução para cada par de origem e destino foram medidos e comparados entre os dois algoritmos. O gráfico abaixo ilustra o desempenho:
 
-![Comparativo de Tempo de Execução](img/comparacao.png)
+![Comparativo de Tempo de Execução](img/comparation.png)
 
 #### Visualização de Caminhos
 
