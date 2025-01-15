@@ -16,49 +16,94 @@ O algoritmo de Kruskal é um método eficiente e amplamente utilizado para deter
 ## PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX 
 
 ### Objetivo
-O objetivo principal é  avaliar o  desempenho  do algoritmo de dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no networkx (função shortest_path)  para diferentes pares de pontos de interesse (POIs) na cidade de Natal-RN e visualizar o resultado no OSMnx.
+O objetivo principal é avaliar o desempenho do algoritmo de Dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no NetworkX (função `shortest_path`) para diferentes pares de pontos de interesse (POIs) na cidade de Natal-RN, utilizando visualizações geradas pela biblioteca OSMnx.
 
+### POIs Definidos
+Os seguintes pares de origem e destino foram escolhidos:
+
+1. **Shopping Midway Mall** → **UFRN**
+2. **Universidade Federal do Rio Grande do Norte (UFRN)** → **Morro do Careca**
+3. **Praia de Ponta Negra** → **Praia do Meio**
+4. **Arena das Dunas** → **Centro Histórico de Natal**
+5. **Parque das Dunas** → **Parnamirim (Av. Ayrton Senna)**
+6. **Centro Histórico de Natal** → **Praia de Ponta Negra**
+7. **Praia do Forte** → **Shopping Via Direta**
+8. **Shopping Natal Sul** → **Parque das Dunas**
+9. **Rodoviária de Natal** → **Arena das Dunas**
+10. **Aeroporto Internacional de Natal (São Gonçalo do Amarante)** → **Shopping Partage Norte**
+
+---
 
 ### Desenvolvimento
-Foram definidos os seguintes POIs (Origens, Destino):
 
-  * Shopping Midway Mall, UFRN
-  * Universidade Federal do Rio Grande do Norte (UFRN), Morro do careca
-  * Praia de Ponta Negra, Praia do Meio
-  * Arena das Dunas, Centro Histórico de Natal
-  * Parque das Dunas,  Parnamirim (Av. Ayrton Senna)
-  * Centro Histórico de Natal, Praia de Ponta Negra
-  * Praia do Forte, Shopping Via Direta
-  * Shopping Natal Sul,Parque das Dunas
-  * Rodoviária de Natal, Arena das Dunas
-  * Aeroporto Internacional de Natal (São Gonçalo do Amarante), Shopping Partage Norte
-  
+#### Função Min-Heap
+
+Abaixo está o código utilizado para implementar o algoritmo de Dijkstra com Min-Heap:
+
+```python
+# Função para implementação de Dijkstra com Min-Heap
+def dijkstra_min_heap(graph, origem, destino):
+    dist = {node: float('inf') for node in graph.nodes}
+    dist[origem] = 0
+    prev = {node: None for node in graph.nodes}
+    min_heap = [(0, origem)]  # (distância acumulada, nó)
+
+    while min_heap:
+        current_dist, current_node = heapq.heappop(min_heap)
+
+        if current_node == destino:
+            break
+
+        if current_dist > dist[current_node]:
+            continue
+
+        for neighbor, edge_data in graph[current_node].items():
+            weight = edge_data[0].get("length", 1)
+            distance = current_dist + weight
+
+            if distance < dist[neighbor]:
+                dist[neighbor] = distance
+                prev[neighbor] = current_node
+                heapq.heappush(min_heap, (distance, neighbor))
+
+    # Reconstruir o caminho
+    path = []
+    node = destino
+    while node is not None:
+        path.insert(0, node)
+        node = prev[node]
+
+    return path
+```
+
+---
+
 ### Resultados
 
-Para cada par de origem e destino, foram comparados:
+#### Tempo de Execução
 
-Tempo de Execução:
+Os tempos de execução para cada par de origem e destino foram medidos e comparados entre os dois algoritmos. O gráfico abaixo ilustra o desempenho:
 
-* O tempo de execução foi medido para os dois algoritmos (Min-Heap e NetworkX), conforme apresentado na figura a baixo.
+![Comparativo de Tempo de Execução](img/comparacao.png)
 
-![](img/comparacao.png)
+#### Visualização de Caminhos
 
+Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizando OSMnx. As cores indicam:
+- **Azul**: Caminho calculado pelo algoritmo do NetworkX.
+- **Verde**: Caminho calculado pelo algoritmo com Min-Heap.
 
-Visualização de Caminhos:
+![Mapa de Caminhos](img/Grafo_Dijsktra.png)
 
-* Os caminhos gerados pelos algoritmos foram sobrepostos em mapas.
+---
 
-  
-  ![](img/Grafo_Dijsktra.png)
+### Análise
 
+- Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota, indicando que ambos são corretos.
+- O algoritmo implementado com NetworkX apresentou melhor desempenho em termos de tempo de execução devido às otimizações internas da biblioteca.
+- A implementação com Min-Heap, apesar de ser mais lenta, oferece maior controle e é uma solução educacional para compreender os detalhes do algoritmo de Dijkstra.
 
-### Análise:
+---
 
-* Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota.
-
-* O algoritmo com NetworkX teve desempenho melhor em tempo de execução.
-
-* 
 
 ## PARTE 2 - Uso do Algoritmo de Kruskal otimização de roteiro Turístico
 
