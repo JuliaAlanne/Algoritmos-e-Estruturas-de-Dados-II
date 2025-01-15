@@ -18,10 +18,10 @@ Segue os links para os videos explicativo  [PARTE 1](https://youtu.be/r4T2wbtgtP
 ## PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX 
 
 ### Objetivo
-O objetivo principal é avaliar o desempenho do algoritmo de Dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no NetworkX (função `shortest_path`) para diferentes pares de pontos de interesse (POIs) na cidade de Natal-RN, utilizando visualizações geradas pela biblioteca OSMnx.
+- O objetivo principal é avaliar o desempenho do algoritmo de Dijkstra compartilhado no arquivo [dijsktra_min_heap](dijsktra_min_heap.ipynb) com a solução presente no NetworkX (função `shortest_path`) para diferentes pares de pontos de interesse (POIs) na cidade de Natal-RN, utilizando visualizações geradas pela biblioteca OSMnx.
 
 ### POIs Definidos
-Os seguintes pares de origem e destino foram escolhidos:
+- Os seguintes pares de origem e destino foram escolhidos:
 
 1. **Shopping Midway Mall** → **UFRN**
 2. **Universidade Federal do Rio Grande do Norte (UFRN)** → **Morro do Careca**
@@ -131,15 +131,16 @@ for resultado in resultados:
 
 #### Tempo de Execução
 
-Os tempos de execução para cada par de origem e destino foram medidos e comparados entre os dois algoritmos. O gráfico abaixo ilustra o desempenho:
+- Os tempos de execução para cada par de origem e destino foram medidos e comparados entre os dois algoritmos. O gráfico abaixo ilustra o desempenho:
 
 ![Comparativo de Tempo de Execução](img/comparation.png)
 
 #### Visualização de Caminhos
 
-Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizando OSMnx.
+- Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizando OSMnx. Conforme apresentado na imagem abaixo.
 
 ![Mapa de Caminhos](img/Dijsktra.png)
+
 
 ---
 
@@ -179,13 +180,16 @@ O objetivo demonstrar a aplicação do algoritmo de Kruskal  para otimizar um ro
 ### Resultados
 - O algoritmo gerou uma rota otimizada conectando todos os pontos turísticos com a menor soma de distâncias.
 - Comprimento total da MST: **28.823,45 metros**.
-- A MST gerada foi sobreposta ao mapa de Natal. De modo que as rotas otimizadas foram destacadas em vermelho, enquanto os POIs foram marcados como pontos azuis para facilitar a interpretação.
+-A MST gerada foi sobreposta ao mapa de Natal, com as rotas otimizadas destacadas em vermelho, enquanto os POIs foram marcados como pontos azuis para facilitar a interpretação.
 - A visualização do grafo com a MST está representada abaixo:
 
   ![](img/kruskal.png)
+
+- A MST gerada pelo algoritmo de Kruskal oferece um roteiro otimizado que pode ser utilizado como base para sistemas de transporte turístico ou até mesmo para guias turísticos personalizados.
 
 ### Análise
 
 - O comprimento total da MST, equivalente a 28.823,45 metros, representa a menor distância necessária para conectar todos os pontos turísticos selecionados. Esse valor reflete um roteiro otimizado que reduz deslocamentos, tornando-o ideal para turistas que desejam explorar diversos locais de forma prática e eficiente. Além disso, a rota oferece uma solução estratégica para planejamento de transporte turístico, reduzindo custos operacionais e tempo de viagem, além de possibilitar a criação de itinerários guiados personalizados.
 
+- 
 
