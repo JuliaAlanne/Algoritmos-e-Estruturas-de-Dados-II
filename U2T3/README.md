@@ -137,9 +137,7 @@ Os tempos de execução para cada par de origem e destino foram medidos e compar
 
 #### Visualização de Caminhos
 
-Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizando OSMnx. As cores indicam:
-- **Azul**: Caminho calculado pelo algoritmo do NetworkX.
-- **Verde**: Caminho calculado pelo algoritmo com Min-Heap.
+Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizando OSMnx.
 
 ![Mapa de Caminhos](img/Dijsktra.png)
 
