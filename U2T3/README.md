@@ -78,6 +78,53 @@ def dijkstra_min_heap(graph, origem, destino):
 
 ---
 
+- Comparação dos tempos de execução
+``` python
+
+# Lista para armazenar os tempos
+resultados = []
+
+# Iterar pelos pares de origem e destino
+for i in range(len(origens)):
+    # Obter coordenadas
+    origem_coord = ox.geocode(origens[i])
+    destino_coord = ox.geocode(destinos[i])
+
+    # Encontrar os nós mais próximos no grafo
+    origem = ox.distance.nearest_nodes(G, origem_coord[1], origem_coord[0])
+    destino = ox.distance.nearest_nodes(G, destino_coord[1], destino_coord[0])
+
+    # Dijkstra com Min-Heap
+    start_time = time.time()
+    path_min_heap = dijkstra_min_heap(G, origem, destino)
+    time_min_heap = time.time() - start_time
+
+    # Dijkstra com NetworkX
+    start_time = time.time()
+    path_nx = nx.shortest_path(G, origem, destino, weight="length")
+    time_nx = time.time() - start_time
+
+    # Salvar resultados, incluindo o caminho
+    resultados.append({
+        "origem": origens[i],
+        "destino": destinos[i],
+        "tempo_min_heap": time_min_heap,
+        "tempo_networkx": time_nx,
+        "path_min_heap": path_min_heap,  # Adiciona o caminho lculado por min_heap
+        "path_nx": path_nx # Adiciona o caminho calculado por NetworkX
+
+    })
+
+# Exibir os resultados e plotar os grafos
+print("\n--- Comparação dos Tempos de Execução ---\n")
+for resultado in resultados:
+    print(f"Origem: {resultado['origem']} -> Destino: {resultado['destino']}")
+    print(f"Tempo (Min-Heap): {resultado['tempo_min_heap']:.6f} segundos")
+    print(f"Tempo (NetworkX): {resultado['tempo_networkx']:.6f} segundos\n")
+
+
+```
+
 ### Resultados
 
 #### Tempo de Execução
@@ -99,8 +146,7 @@ Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizand
 ### Análise
 
 - Ambos os algoritmos produziram os mesmos caminhos mínimos em termos de rota, indicando que ambos são corretos.
-- O algoritmo implementado com NetworkX apresentou melhor desempenho em termos de tempo de execução devido às otimizações internas da biblioteca.
-- A implementação com Min-Heap, apesar de ser mais lenta, oferece maior controle e é uma solução educacional para compreender os detalhes do algoritmo de Dijkstra.
+- O algoritmo implementado com NetworkX apresentou melhor desempenho em termos de tempo de execução.
 
 ---
 
