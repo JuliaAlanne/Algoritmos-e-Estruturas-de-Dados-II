@@ -38,7 +38,7 @@ Os seguintes pares de origem e destino foram escolhidos:
 
 #### Função Min-Heap
 
-Abaixo está o código utilizado para implementar o algoritmo de Dijkstra com Min-Heap:
+- Segue abaixo o código utilizado para implementar o algoritmo de Dijkstra com Min-Heap:
 
 ```python
 # Função para implementação de Dijkstra com Min-Heap
