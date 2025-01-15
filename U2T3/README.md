@@ -78,7 +78,7 @@ def dijkstra_min_heap(graph, origem, destino):
 
 ---
 
-- Comparação dos tempos de execução
+- Segue abaixo o código utilizado para comparar os tempos de execução
 ``` python
 
 # Lista para armazenar os tempos
@@ -149,6 +149,9 @@ Os caminhos gerados por ambos os algoritmos foram sobrepostos em mapas utilizand
 - O algoritmo implementado com NetworkX apresentou melhor desempenho em termos de tempo de execução.
 
 ---
+
+
+Segue o link para o video explicativo do desenvolvimento da atividade  [VÍDEO PARTE 1](https://youtu.be/r4T2wbtgtPQ)
 
 
 ## PARTE 2 - Uso do Algoritmo de Kruskal otimização de roteiro Turístico
