@@ -13,7 +13,7 @@ O algoritmo de Dijkstra é um método para encontrar o caminho mais curto em gra
 
 O algoritmo de Kruskal é um método eficiente e amplamente utilizado para determinar a Árvore Geradora Mínima (Minimum Spanning Tree - MST) em um grafo ponderado e conectado, garantindo a menor soma possível dos pesos das arestas que conectam todos os vértices.
 
-Segue os links para o video explicativo do desenvolvimento da atividade  [VÍDEO PARTE 1](https://youtu.be/r4T2wbtgtPQ) e [VÍDEO PARTE 2](https://youtu.be/TRr-iF_0svY)
+Segue os links para os videos explicativo  [PARTE 1](https://youtu.be/r4T2wbtgtPQ) e [PARTE 2](https://youtu.be/TRr-iF_0svY)
 
 ## PARTE 1: Comparando Algoritmos de Dijkstra: Min-Heap e NetworkX 
 
