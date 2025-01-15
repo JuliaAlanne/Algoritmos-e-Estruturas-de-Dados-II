@@ -60,7 +60,7 @@ Visualização de Caminhos:
 
 * 
 
-## PARTE 2 - Uso do Algoritmo de Kruskal para roteiro Turístico
+## PARTE 2 - Uso do Algoritmo de Kruskal otimização de roteiro Turístico
 
 Este projeto utiliza o **algoritmo de Kruskal** para calcular a  MST que conecta os principais pontos turísticos da cidade de Natal-RN, criando um roteiro eficiente que minimiza as distâncias percorridas.
 
@@ -82,10 +82,12 @@ O objetivo demonstrar a aplicação do algoritmo de Kruskal  para otimizar um ro
    - `OSMnx`: Para trabalhar com mapas e dados geográficos.
    - `networkx`: Para modelagem e manipulação do grafo.
    - `matplotlib`: Para visualização gráfica dos resultados.
+  
 
 ### Resultados
 - O algoritmo gerou uma rota otimizada conectando todos os pontos turísticos com a menor soma de distâncias.
 - Comprimento total da MST: **28.823,45 metros**.
+- A MST gerada foi sobreposta ao mapa de Natal. De modo que as rotas otimizadas foram destacadas em vermelho, enquanto os POIs foram marcados como pontos azuis para facilitar a interpretação.
 - A visualização do grafo com a MST está representada abaixo:
 
   ![](img/kruskal.png)
