@@ -79,7 +79,7 @@ def dijkstra_min_heap(graph, origem, destino):
 
 ---
 
-- Segue abaixo o código utilizado para comparar os tempos de execução
+- Segue abaixo o código utilizado para comparar os tempos de execução:
 ``` python
 
 # Lista para armazenar os tempos
