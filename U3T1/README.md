@@ -46,7 +46,7 @@ def get_data():
     text = text.replace('\r', ' ').replace('\n', ' ')
 
     return text
-'''
+´´´
 
 ### Requisito 2: Análise de PoS Tagging e NER
 
