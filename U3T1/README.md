@@ -58,11 +58,13 @@ A implementação detalhada dessas técnicas pode ser visualizada no arquivo [U3
 
 Com base nas entidades extraídas, utilizamos o **NetworkX** para construir grafos, onde as entidades são representadas como nós e as relações entre elas formam as arestas. Isso permite uma análise visual e quantitativa das interações entre personagens e elementos narrativos. Abaixo estão as visualizações dos grafos dos livros "É Assim Que Acaba" e "É Assim Que Começa":
 
+
 - **Grafo de "É Assim Que Acaba"**
   ![](img/grafo_acaba.png)
 
 - **Grafo de "É Assim Que Começa"**
   ![](img/grafo_comeca.png)
+
 
 ### 4. Análise da Rede
 
