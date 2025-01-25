@@ -26,6 +26,10 @@ Explorar relações linguísticas entre personagens, temas e elementos narrativo
 - Coleta e organização dos textos dos livros **É Assim Que Acaba** e **É Assim Que Começa**.
 - Limpeza e normalização dos dados textuais para remoção de ruídos.
 
+  [Grafo interativo Livro 1](https://juliaalanne.github.io/Algoritmos-e-Estruturas-de-Dados-II/U3T1/network_/#) 
+  [Grafo interativo Livro 2](https://juliaalanne.github.io/Algoritmos-e-Estruturas-de-Dados-II/U3T1/network/#) 
+
+
 ### Requisito 2: Análise de PoS Tagging e NER
 
 - Utilização de técnicas de Part-of-Speech Tagging (PoS) para identificar categorias gramaticais.
