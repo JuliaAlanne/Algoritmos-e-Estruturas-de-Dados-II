@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Julia Alanne"
+  },
+  "text": {
+    "more": "",
+    "intro": "Analisando a duologia \u0027É Assim Que Acaba\u0027  e \u0027É Assim Que Começa\u0027 de Colleen Hoover, este grafo, referente ao  livro \u0027É assim que\nAcaba\u0027, explora a estrutura gramatical e as semelhanças no estilo de escrita da autora. Através dele, investigamos a evolução da personagem\nprincipal e mapeamos as  relações entre os personagens, oferecendo uma visão profunda do universo narrativo de Hoover.",
+    "title": "Livro 2: É assim que Acaba"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "eccentricity",
+    "nodeLabel": "entities"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
