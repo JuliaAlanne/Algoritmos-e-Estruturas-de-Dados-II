@@ -1,55 +1,51 @@
 Discente: Júlia Alanne Silvino dos Santos
 
 Matrícula: 20240001215
-
 # Análise de Redes com Processamento de Linguagem Natural
 
-Este repositório documenta o trabalho de análise de redes utilizando ferramentas de Processamento de Linguagem Natural (NLP) aplicado aos livros **É Assim Que Acaba** e **É Assim Que Começa** da autora Colleen Hoover.
+Este repositório documenta um projeto de análise de redes, utilizando ferramentas de Processamento de Linguagem Natural (NLP), aplicado aos livros **É Assim Que Acaba** e **É Assim Que Começa**, da autora Colleen Hoover.
 
 ## Objetivo
 
-Explorar relações linguísticas entre personagens, temas e elementos narrativos dos dois livros mencionados, utilizando técnicas de NLP para extrair informações textuais e representá-las em grafos interativos.
+O objetivo deste projeto é explorar as relações linguísticas entre personagens, temas e outros elementos narrativos dos dois livros mencionados, utilizando técnicas de NLP para extrair informações textuais e representá-las em grafos interativos.
 
 ## Tecnologias Utilizadas
 
-- **Python**: Linguagem principal para processamento de texto e análise de dados. 
+- **Python**: Linguagem principal utilizada para o processamento de texto e análise de dados.
 - **Bibliotecas de NLP**:
-  - spaCy
-- **Bibliotecas de visualização de grafos**:
-  - NetworkX
-  - Gephi
+  - **spaCy**: Utilizada para análise linguística, incluindo Part-of-Speech Tagging e Named Entity Recognition (NER).
+- **Bibliotecas de Visualização de Grafos**:
+  - **NetworkX**: Utilizada para construção e análise de redes.
+  - **Gephi**: Usada para visualização e análise avançada dos grafos gerados.
 
 ## Requisitos do Projeto
 
 ### Requisito 1: Seleção e Preparação dos Textos
 
 - Coleta e organização dos textos dos livros **[É Assim Que Acaba](e-assim-que-acaba.txt)** e **[É Assim Que Começa](e-assim-que-comeca.txt)**.
-- Limpeza e normalização dos dados textuais para remoção de ruídos.
 
-   foi utilizada a função a seguir para fazer a limpeza dos dados em ambos livros 
-/python
+A função a seguir foi utilizada para fazer a limpeza e normalização dos dados textuais para remoção de ruídos de ambos os livros:
+
+```python
 def get_data():
     file_path = "/content/e-assim-que-comeca.txt"
 
     # Ler o conteúdo do arquivo local
     with open(file_path, "r", encoding="utf-8") as file:
-      text = file.read()
+        text = file.read()
 
-    # strip header junk
+    # Remover junk do cabeçalho
     cutoff = text.index('1. Atlas')
     text = text[cutoff:]
 
-    # strip footer junk
+    # Remover junk do rodapé
     cutoff = text.rindex("quer ser minha peixinha?")
     text = text[:cutoff]
 
-    # pre-processing to clean the text
+    # Pré-processamento para limpeza do texto
     text = text.replace('\r', ' ').replace('\n', ' ')
-   # text = text.replace('â\x80\x99', '\'').replace('â\x80\x9c', '"').replace('â\x80\x9d', '""').replace('â\x80\x94', ' ')
 
     return text
-
-//
 
 ### Requisito 2: Análise de PoS Tagging e NER
 
@@ -69,7 +65,9 @@ def get_data():
 ### Requisito 5: Visualização e Produção do Grafo
 
 - Geração de visualizações interativas para exploração dos grafos.
-[](img/grafo_acaba.png)
+![](img/grafo_acaba.png)
+![](img/grafo_comeca.png)
+
 ### Requisito 6: Documentação e Divulgação
 
 - Criação de documentação detalhada do projeto, incluindo metodologias e resultados.
