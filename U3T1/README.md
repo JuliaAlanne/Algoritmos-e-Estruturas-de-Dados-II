@@ -18,3 +18,7 @@ Análise da Rede
 
 Requisito 5
 Visualização e Produção do Grafo:
+
+equisito 6
+Documentação e Divulgação:
+
