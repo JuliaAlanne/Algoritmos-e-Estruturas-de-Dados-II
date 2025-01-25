@@ -44,8 +44,7 @@ Explorar relações linguísticas entre personagens, temas e elementos narrativo
 ### Requisito 5: Visualização e Produção do Grafo
 
 - Geração de visualizações interativas para exploração dos grafos.
-- Integração com o **Retina** para disponibilização online das visualizações.
-
+[](img/grafo.png)
 ### Requisito 6: Documentação e Divulgação
 
 - Criação de documentação detalhada do projeto, incluindo metodologias e resultados.
