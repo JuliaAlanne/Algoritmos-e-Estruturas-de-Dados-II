@@ -9,8 +9,8 @@
   },
   "text": {
     "more": "",
-    "intro": "",
-    "title": "Livro 1: É assim que acaba"
+    "intro": "Analisando a duologia \u0027É Assim Que Acaba\u0027  e \u0027É Assim Que Começa\u0027 de Colleen Hoover, este grafo, referente ao  livro \u0027É assim que\n Começa\u0027, explora a estrutura gramatical e as semelhanças no estilo de escrita da autora. Através dele, investigamos a evolução da personagem\nprincipal e mapeamos as  relações entre os personagens, oferecendo uma visão profunda do universo narrativo de Hoover.",
+    "title": "Livro 2: É assim que Começa"
   },
   "legend": {
     "edgeLabel": "",
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": "Authority"
+    "imageAttribute": false
   },
   "sigma": {
     "drawingProperties": {
