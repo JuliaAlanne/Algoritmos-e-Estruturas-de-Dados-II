@@ -61,5 +61,7 @@ Explorar relações linguísticas entre personagens, temas e elementos narrativo
 - **Temas recorrentes**:
   - Principais palavras-chave e suas interdependências nos textos.
 
+[Grafo interativo Livro 1](https://juliaalanne.github.io/Algoritmos-e-Estruturas-de-Dados-II/U3T1/network_/#) 
+[Grafo interativo Livro 2](https://juliaalanne.github.io/Algoritmos-e-Estruturas-de-Dados-II/U3T1/network/#) 
 
 
