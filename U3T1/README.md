@@ -60,9 +60,11 @@ Com base nas entidades extraídas, utilizamos o **NetworkX** para construir graf
 
 
 - **Grafo de "É Assim Que Acaba"**
+  
   ![](img/grafo_acaba.png)
 
 - **Grafo de "É Assim Que Começa"**
+  
   ![](img/grafo_comeca.png)
 
 
@@ -71,9 +73,11 @@ Com base nas entidades extraídas, utilizamos o **NetworkX** para construir graf
 Foram calculadas métricas como o grau dos nós, centralidade e hubs. Essas métricas permitem analisar a importância de cada personagem dentro da rede e compreender melhor as interações que estruturam a narrativa. Além disso, extraímos a rede de ego dos personagens principais e o k-core da rede. A seguir, apresentamos as visualizações das redes de ego para os dois livros:
 
 - **Rede de ego do Livro 1 ("É Assim Que Acaba")**
+  
   ![](img/ego1.png)
 
 - **Rede de ego do Livro 2 ("É Assim Que Começa")**
+  
   ![](img/ego2.png)
 
 ### 5. Visualização e Produção do Grafo
